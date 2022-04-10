@@ -15,7 +15,7 @@ class Program
         Console.WriteLine("Площадь треугольника: " + shape2.GetArea());
         if (shape2 is Triangle triangle)
         {
-            Console.WriteLine(triangle.IsRightTriangle());
+            Console.WriteLine("Треугольник прямоугольный:" + triangle.IsRightTriangle());
         }
     }
 }
